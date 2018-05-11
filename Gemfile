@@ -50,12 +50,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
-  # Use the PostgreSQL gem for Heroku production servers
-  gem 'pg', '0.18.4'
-end
-
-
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15', '< 4.0'
